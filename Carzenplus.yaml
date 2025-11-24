@@ -1,0 +1,39 @@
+# Carzenplus内部专用
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+proxy-providers:
+  main:
+    type: http
+    url: "https://sub.store/download/Carzen%2B?target=ClashMeta"
+    interval: 3600
+    path: ./providers/main.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+
+rule-providers:
+  rules:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Ash-Juniper-Path/VPN_Related/refs/heads/main/Rule/Clash/Media_Ban.list"
+    path: ./providers/rules.yaml
+    interval: 3600
+
+proxy-groups:
+  - name: Carzenplus
+    type: url-test
+    use:
+      - Carzenplus
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+
+rules:
+  - RULE-SET,rules,REJECT
+  - GEOIP,CN,DIRECT
+  - MATCH,Carzenplus
