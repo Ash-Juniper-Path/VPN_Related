@@ -299,8 +299,6 @@ DOMAIN-SUFFIX,sndcdn.com
 DOMAIN-SUFFIX,soundcloud.com
 # TikTok
 DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,douyin.com
-DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,bytecdn.cn
 DOMAIN-SUFFIX,byted.org
 DOMAIN-SUFFIX,bytedanceapi.com
@@ -323,7 +321,6 @@ DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-KEYWORD,tiktokcdn
-DOMAIN-KEYWORD,douyin
 # Hoichoi
 DOMAIN-KEYWORD,hoichoi
 # Chorki
