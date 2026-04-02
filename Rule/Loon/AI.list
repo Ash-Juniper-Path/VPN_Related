@@ -470,6 +470,8 @@ DOMAIN-SUFFIX,xoom.us
 DOMAIN-SUFFIX,xoomcom.com
 DOMAIN-SUFFIX,you.com
 DOMAIN-SUFFIX,zed.dev
+DOMAIN-SUFFIX,devv.ai
+DOMAIN-SUFFIX,forefront.ai
 DOMAIN-KEYWORD,bedrock
 DOMAIN-KEYWORD,bedrock-runtime
 DOMAIN-KEYWORD,colab
