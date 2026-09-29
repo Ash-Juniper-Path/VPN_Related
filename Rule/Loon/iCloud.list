@@ -1,0 +1,11 @@
+# to direct the connection for iCloud upload and download
+
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,blobstore.apple.com
+DOMAIN-SUFFIX,content-storage-download.googleapis.com
+DOMAIN-SUFFIX,content-storage-upload.googleapis.com
+DOMAIN-KEYWORD,content-storage-download
+DOMAIN-KEYWORD,content-storage-upload
+DOMAIN-KEYWORD,s3.dualstack
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple-dns.net
